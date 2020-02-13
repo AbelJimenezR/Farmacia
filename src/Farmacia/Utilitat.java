@@ -61,6 +61,7 @@ int s=0;
 		for (Medicamento med : medicamentos.values()) {
 			if (med.getNom().toUpperCase().equals(medicamento.toUpperCase())) {
 				return med;
+				
 				//num = medicamentos.get(num);
 			}
 		}
