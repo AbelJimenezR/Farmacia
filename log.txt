@@ -1,0 +1,64 @@
+11/02/2020 09:59:44.635 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Aspirina
+Precio: 1.9
+]
+SubTotal: 1.9
+Total con dto recetas: 0.949999988079071
+11/02/2020 10:01:09.046 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Paracetamol
+Precio: 2.5
+]
+SubTotal: 2.5
+Total con dto recetas: 2.5
+11/02/2020 10:21:04.998 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Aspirina
+Precio: 1.9
+]
+SubTotal: 1.9
+Total con dto recetas: 0.949999988079071
+11/02/2020 10:22:19.505 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Paracetamol
+Precio: 2.5
+]
+SubTotal: 2.5
+Total con dto recetas: 2.5
+11/02/2020 10:33:09.546 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Aspirina
+Precio: 1.9
+]
+SubTotal: 1.9
+Total con dto recetas: 0.949999988079071
+11/02/2020 10:40:39.949 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Aspirina
+Precio: 1.9
+]
+SubTotal: 1.9
+Total con dto recetas: 0.949999988079071
+11/02/2020 10:48:48.456 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Aspirina
+Precio: 1.9
+]
+SubTotal: 1.9
+Total con dto recetas: 1.9
+13/02/2020 02:42:05.057 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Aspirina
+Precio: 1.9
+]
+SubTotal: 1.9
+Total con dto recetas: 0.949999988079071

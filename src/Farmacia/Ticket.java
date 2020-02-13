@@ -52,7 +52,7 @@ public class Ticket {
 	
 	public static void log(Ticket t) {
 		try {
-			FileReader fr = new FileReader("/home/abel/Escriptori/log.txt");
+			FileReader fr = new FileReader("log.txt");
 			BufferedReader br = new BufferedReader(fr);
 			String linea = "";
 			String text="";
@@ -64,7 +64,7 @@ public class Ticket {
 			SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss.SSS");
 			Calendar calendar = Calendar.getInstance();
 			text = text + formatter.format(calendar.getTime()) + " - " + t.toString() + "\n";
-			FileWriter archivo = new FileWriter("/home/abel/Escriptori/log.txt");
+			FileWriter archivo = new FileWriter("log.txt");
 			for(int i=0;i<text.length();i++) {
 				archivo.append(text.charAt(i));
 			}

@@ -69,37 +69,45 @@ public class Menu {
 			
 		}while(x==0);
 			
-		}	
-		
-		public static void menuUsuari() throws FileNotFoundException {
-			Scanner sc=new Scanner(System.in);
-			
-			System.out.println("Tria una opcio:");
+		}
+
+	public static void menuUsuari() throws FileNotFoundException {
+		Scanner sc=new Scanner(System.in);
+
+		do {
+
+			System.out.println("Tria una opció:");
 			System.out.println("1 - Nou usuari");
 			System.out.println("2 - Modifica usuari");
-			System.out.println("3 - Torna al menu anterior");
+			System.out.println("3 - Veure usuaris");
+			System.out.println("4 - Torna al menu anterior");
 			int opcio=sc.nextInt();
-			
-			do {
-				switch(opcio) {
+
+
+			switch(opcio) {
 				case 1:
 					Persona.nouUsuari();
 					break;
-			
+
 				case 2:
 					Persona.modificaUsuari();
 					break;
-				
+
 				case 3:
+					Persona.veureUsusaris();;
+					break;
+
+				case 4:
 					Main.main(null);
 					break;
+
 				default:
 					System.out.println("Torna a intentar-ho.");
-				}
-				
-			}while (opcio > 0 && opcio < 4);
-			
-		}
+			}
+
+		}while (opcio > 0 && opcio < 5);
+
+	}
 		
 		
 }

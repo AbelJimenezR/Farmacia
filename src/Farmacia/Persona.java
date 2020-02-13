@@ -23,14 +23,15 @@ public abstract class Persona {
 
 	@Override
 	public String toString() {
-		return "Persona [nom=" + nom + ", cognom=" + cognom + ", tarSan=" + contra + "]";
+		return "Persona [Nom=" + nom + ", Cognom=" + cognom + ", Pass =" + contra + "]";
 	}
 	
 	public abstract String getContra();
 	
 	public static Persona comprovaVenedor() {
 		Scanner sc=new Scanner(System.in);
-		
+
+
 		System.out.println("Identificat introduint la teva contrasenya: ");
 		String ident = sc.next();
 		Iterator<Persona> i = emple.iterator();
@@ -94,5 +95,14 @@ public abstract class Persona {
 			}
 		}
 		
+	}
+
+	public static void veureUsusaris() {
+		Iterator<Persona> i = emple.iterator();
+		while(i.hasNext()) {
+			Persona e = i.next();
+			System.out.println(e.toString());
+		}
+
 	}
 }

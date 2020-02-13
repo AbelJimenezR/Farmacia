@@ -17,9 +17,8 @@ public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
 		Scanner sc=new Scanner(System.in);
 		Utilitat.cargaMedicamentos();
+		Utilitat.cargaEmpleados();
 
-		Persona per1= new Empleado("Abel", "Jimenez", "a");
-		Persona.emple.add(per1);
 		Menu.menuPrincipal();
 	}
 	
