@@ -1,0 +1,12 @@
+Aspirina,Antiinflamatorio,Bayer,1.9,0
+Paracetamol,Analgesico,Anexsia,2.5,0
+Paroxetina,Antidepresivo,Paxil,3.04,1
+Insulina,Hormonal,Humulin,45.00,1
+Ibuprofeno,Antiinflamatorio,Vicoprofen,1.90,0
+Loratadina,Antihistaminico,Claritin,3.11,0
+Desonida,Corticoesteroide,Desowen,27.80,1
+Fluconazol,Antifungico,Difulcan,4.28,0
+Fenitoina,Anticonvulsivo,Dilantin,3.12,1
+Cefepima,Narcotico,Maxipime,7.29,1
+Lovastatina,inhibidor,Mevacor,3.92,0
+Morfina,Analgesico,Apokyn,3.95,1

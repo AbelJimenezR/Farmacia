@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+  <empleat tipus="0">
+    <nom>Abel</nom>
+    <cognoms>Jimenez Rodriguez</cognoms>
+    <contrasenya>abjiro</contrasenya>
+  </empleat>
+  <empleat tipus="0">
+    <nom>Pol</nom>
+    <cognoms>Torner Romero</cognoms>
+    <contrasenya>potoro</contrasenya>
+  </empleat>
+  <empleat tipus="1">
+    <nom>Sandra</nom>
+    <cognoms>Perez Dalmau</cognoms>
+    <contrasenya>sapeda</contrasenya>
+  </empleat>
+  <empleat tipus="0">
+    <nom>Maria</nom>
+    <cognoms>Costes Castilla</cognoms>
+    <contrasenya>macoca</contrasenya>
+  </empleat>
+</empleados>
