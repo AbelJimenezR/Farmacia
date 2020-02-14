@@ -21,5 +21,5 @@ public class Empleado extends Persona {
 		return contra;
 	}
 	
-	
+
 }
