@@ -62,3 +62,11 @@ Precio: 1.9
 ]
 SubTotal: 1.9
 Total con dto recetas: 0.949999988079071
+14/02/2020 08:34:51.251 - Ticket 1
+Atendido por: Abel
+[Medicamento sin receta: 
+Artículo: Aspirina
+Precio: 1.9
+]
+SubTotal: 1.9
+Total con dto recetas: 0.949999988079071

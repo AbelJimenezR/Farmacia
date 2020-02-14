@@ -1,6 +1,6 @@
 package Farmacia;
 
-public class MedicamentoSin extends Medicamento implements Pepe, Cloneable {
+public class MedicamentoSin extends Medicamento implements Receta, Cloneable {
 	public MedicamentoSin() {
 	}
 
