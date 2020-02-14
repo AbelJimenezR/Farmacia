@@ -3,7 +3,7 @@ package Farmacia;
 public class EmpleadoGuardia extends Persona implements Sou{
 	
 	private Dia d;
-	private double sou;
+	private double souG;
 	
 	public EmpleadoGuardia(String nom, String cognom, String contra) {
 		super(nom, cognom, contra);
@@ -23,7 +23,7 @@ public class EmpleadoGuardia extends Persona implements Sou{
 
 	@Override
 	public void souGuardia(double hores) {
-		this.sou=hores*10.5;
+		this.souG=hores*10.5;
 	}
 
 }
