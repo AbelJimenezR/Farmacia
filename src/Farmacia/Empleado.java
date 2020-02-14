@@ -1,14 +1,13 @@
 package Farmacia;
 
 public class Empleado extends Persona {
-	
+
 	public Empleado() {
 		super();
 	}
-			
+
 	public Empleado(String nom, String cognom, String contra) {
 		super(nom, cognom, contra);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -20,7 +19,5 @@ public class Empleado extends Persona {
 	public String getContra() {
 		return contra;
 	}
-	
-	
 
 }
