@@ -9,7 +9,6 @@ public class EmpleadoGuardia extends Persona implements Sou{
 		super(nom, cognom, contra);
 		d = Dia.DISSABTE;
 		souGuardia(8);
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

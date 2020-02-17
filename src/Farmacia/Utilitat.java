@@ -14,6 +14,7 @@ import java.util.ArrayList;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 public class Utilitat {
@@ -118,6 +119,28 @@ int s=0;
 
 			}
 		}
+	}
+	
+	public static void afegirMedicamentsRegistre() {
+		
+		Registre<Medicamento> rMed = new Registre<Medicamento>();
+		
+		for(int i=0; i<medicamentos.size(); i++) {
+			rMed.add(medicamentos.get(i));
+		}
+
+	}
+	
+	public static void afegirUsuarisRegistre() {
+		
+		Registre<Persona> rPer = new Registre<Persona>();
+		
+		Iterator<Persona> i = Persona.emple.iterator();
+		while(i.hasNext()) {
+			Persona e = i.next();
+			rPer.add(e);
+		}
+
 	}
 
 }

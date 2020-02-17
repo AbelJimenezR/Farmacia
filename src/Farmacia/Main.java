@@ -9,7 +9,8 @@ public class Main {
 		Scanner sc=new Scanner(System.in);
 		Utilitat.cargaMedicamentos();
 		Utilitat.cargaEmpleados();
-
+		Utilitat.afegirMedicamentsRegistre();
+		Utilitat.afegirUsuarisRegistre();
 		Menu.menuPrincipal();
 	}		
 }	

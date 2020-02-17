@@ -9,7 +9,7 @@ public class Menu {
 
 	public static void menuPrincipal() throws FileNotFoundException {
 	do {
-		System.out.println("Tria una opciÃ³:");
+		System.out.println("Tria una opció:");
 		System.out.println("1 - Usuaris");
 		System.out.println("2 - Medicaments");
 		System.out.println("3 - Venda");
@@ -47,7 +47,7 @@ public class Menu {
 			int x=0;
 
 			do {
-			System.out.println("Tria una opciÃ³:");
+			System.out.println("Tria una opció:");
 			System.out.println("1 - Nou Medicament");
 			System.out.println("2 - Veure Medicament");
 			System.out.println("0 - Tornar");
@@ -76,7 +76,7 @@ public class Menu {
 
 		do {
 
-			System.out.println("Tria una opciÃ³:");
+			System.out.println("Tria una opció:");
 			System.out.println("1 - Nou usuari");
 			System.out.println("2 - Modifica usuari");
 			System.out.println("3 - Veure usuaris");

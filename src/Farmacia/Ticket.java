@@ -96,7 +96,7 @@ public class Ticket{
 				if (!medi.equals("S")) {
 					if (Utilitat.compruebaMedicamento(medi) instanceof MedicamentoCon) {
 						MedicamentoCon med = (MedicamentoCon) Utilitat.compruebaMedicamento(medi);
-						System.out.println("El client tÃ© recepta?");
+						System.out.println("El client té recepta?");
 						recepta = sc.next();
 						if (recepta.equals("S")) {
 							MedicamentoCon medClone = med.clone();
@@ -108,7 +108,7 @@ public class Ticket{
 						}
 					} else {
 						MedicamentoSin med = (MedicamentoSin) Utilitat.compruebaMedicamento(medi);
-						System.out.println("El client tÃ© recepta?");
+						System.out.println("El client té recepta?");
 						recepta = sc.next();
 						if (recepta.equals("S")) {
 							MedicamentoSin medsClone = med.clone();

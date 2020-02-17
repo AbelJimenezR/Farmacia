@@ -23,7 +23,7 @@ public class MedicamentoCon extends Medicamento implements Cloneable {
 	public String toString() {
 		StringBuilder sb = new StringBuilder();
 		sb.append("Medicamento con receta: \n");
-		sb.append("ArtÃ­culo: " + nom + "\n");
+		sb.append("Artículo: " + nom + "\n");
 		sb.append("Precio: " + precio + "\n");
 
 		String result = sb.toString();
