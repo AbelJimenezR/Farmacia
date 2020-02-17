@@ -9,7 +9,7 @@ public class Comparacio<T,K>{
 		this.t = t;
 		this.k = k;
 	}
-
+	
 	public boolean comparem() {
 		return this.t.getClass().getName()==this.k.getClass().getName();
 	}
